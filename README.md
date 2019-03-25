@@ -1,4 +1,4 @@
-# starter-kit
+# starter_kit
 Webpack starter boilerplate:
 * Webpack as a bundler (+html-webpack-plugin), webpack-dev-server;
 * Babel (@babel/preset-env + browserlist);

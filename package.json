@@ -1,0 +1,30 @@
+{
+  "name": "starter-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"To jest testowy skrypt",
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production",
+    "start:dev": "webpack-dev-server"
+  },
+  "author": "Agnieszka",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "4.29.6",
+    "webpack-cli": "3.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.0",
+    "@babel/preset-env": "7.4.2",
+    "babel-loader": "8.0.5",
+    "babel-plugin-syntax-dynamic-import": "6.18.0",
+    "css-loader": "2.1.1",
+    "html-webpack-plugin": "3.2.0",
+    "style-loader": "0.23.1",
+    "webpack-dev-server": "3.2.1"
+  },
+  "browserList": "> 0.25%, not dead"
+}
